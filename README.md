@@ -1,17 +1,7 @@
 # JavaPomodoroTimer
 
-### Run the following in a terminal to get the jar file on your desktop.
+### Run the following in a terminal to 'install' the app.
 
-`cd ~/Desktop; git clone https://github.com/jfjhh/JavaPomodoroTimer.git`
-
-`sleep 1;`
-
-`ditto -V JavaPomodoroTimer/Pomodoro_Timer.jar ~/Desktop/`
-
-`sleep 1`
-
-`rm -rf JavaPomodoroTimer`
-
-* * *
+    curl -O https://raw.github.com/jfjhh/JavaPomodoroTimer/master/install.sh; chmod +x install.sh; . install.sh;
 
 ##### -*Alex Striff*
