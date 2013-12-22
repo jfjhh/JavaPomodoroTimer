@@ -10,9 +10,8 @@ sleep 1
 mkdir ~/Library/Application\ Support/Pomodoro\ Timer
 ditto -V JavaPomodoroTimer/Pomodoro_Timer.jar ~/Library/Application\ Support/Pomodoro\ Timer
 ditto -V Pomodoro\ Timer.app /Applications/
+sleep 1
 rm -rfv JavaPomodoroTimer
-clear
 echo "FINISHED INSTALL; EXITING..."
 sleep 3
-exit
-
+rm -v $0
