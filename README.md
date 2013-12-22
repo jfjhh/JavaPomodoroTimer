@@ -9,6 +9,7 @@
 #### As for the icon
 
 When the app is finished, you may notice it lacks an icon. To remedy this, do the following:
+
 1. Find the app in the Finder at `/Applications/Pomodoro\ Timer.app`
 2. Select it and press `Command-I`
 3. Find the icon at `~/Library/Application\ Support/Pomodoro\ Timer/pomodoro.png`, and open it in Preview
