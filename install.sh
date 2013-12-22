@@ -4,7 +4,6 @@
 
 clear
 echo "INSTALLING POMODORO TIMER..."
-cd ~/Desktop
 git clone https://github.com/jfjhh/JavaPomodoroTimer.git
 sleep 1
 mkdir ~/Library/Application\ Support/Pomodoro\ Timer
@@ -14,4 +13,4 @@ sleep 1
 rm -rfv JavaPomodoroTimer
 echo "FINISHED INSTALL; EXITING..."
 sleep 3
-rm -v $0
+rm -v install.sh
