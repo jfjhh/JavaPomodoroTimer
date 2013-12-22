@@ -8,6 +8,7 @@ git clone https://github.com/jfjhh/JavaPomodoroTimer.git
 sleep 1
 mkdir ~/Library/Application\ Support/Pomodoro\ Timer
 cp -v JavaPomodoroTimer/Pomodoro_Timer.jar ~/Library/Application\ Support/Pomodoro\ Timer
+cp -v JavaPomodoroTimer/Timer/icon/pomodoro.png ~/Library/Application\ Support/Pomodoro\ Timer
 sudo cp -Rv JavaPomodoroTimer/Pomodoro\ Timer.app /Applications/
 sleep 1
 rm -rfv JavaPomodoroTimer
