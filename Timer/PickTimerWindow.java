@@ -24,11 +24,11 @@ public class PickTimerWindow extends JFrame {
 	
 	public PickTimerWindow() {
 		super("Pick Timer");
-		setResizable(false);
+		setResizable(true);
 		
 		initUI();
 		
-		setSize(850, 450);
+		setSize(850, 850);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}

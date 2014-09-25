@@ -51,18 +51,18 @@ class Surface extends JPanel implements ActionListener {
 
         g2d.setFont(new Font("Mona Lisa Solid ITC TT", Font.PLAIN, 48));
 		if (pomCount % 2 == 0) {
-			g2d.drawString("Work", 580, 360);
+			g2d.drawString("Work", 580, 400);
 		} else if (pomCount % 7 == 0) {
-			g2d.drawString("Long Break", 580, 360);
+			g2d.drawString("Long Break", 580, 400);
 		} else {
-			g2d.drawString("Break", 580, 360);
+			g2d.drawString("Break", 580, 400);
 		}
 
         g2d.setFont(new Font("Mona Lisa Solid ITC TT", Font.PLAIN, 48));
-        g2d.drawString("Pomodoros: " + Integer.toString(pomCount / 2), 470, 70);      
+        g2d.drawString("Pomodoros: " + Integer.toString(pomCount / 2), 470, 70);
 				 
         g2d.setFont(new Font("Mona Lisa Solid ITC TT", Font.PLAIN, 300));
-		g2d.drawString(text, 120, 280);       
+		g2d.drawString(text, 120, 320);       
         }
 
     @Override
